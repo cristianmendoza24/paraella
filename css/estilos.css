@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    font-family: "mi fuente", Courier, Castellar;
+    font-size: 5em;
+    color: blueviolet;
+    text-shadow: 4px 6px 5px rgb(63, 253, 244);
+}
+#flex-padre{
+    display: flex;
+    flex-direction: row;
+    
+}
+#flex-padre div{
+    width: 150px;
+    height: 150px;
+    background: black;
+    outline: 3px solid black;
+    box-shadow: 5px 10px 15px rgb(183, 123, 240);
+    box-shadow: -5px -10px 15px rgb(183, 123, 240);
+    margin: 90px;
+    text-align: center;
+ 
+}
+#flex-padre a{
+    text-decoration: none;
+    font-size: 16px;
+    color: inherit;
+}
+#flex-padre div:hover{
+    background: black;
+    color: blueviolet;
+}
+
+
+    @font-face {
+        font-family: "mi fuente";
+        src: url("../fonts/Bloody Frozen.otf);
+    }
+
